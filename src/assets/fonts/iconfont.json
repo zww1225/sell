@@ -1,0 +1,107 @@
+{
+  "id": "1932728",
+  "name": "fonts",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5595780",
+      "name": "头像 男孩",
+      "font_class": "icon-test1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1233805",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "3310137",
+      "name": "销售额",
+      "font_class": "xiaoshoue",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "4019852",
+      "name": "金币",
+      "font_class": "jinbi",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "15669703",
+      "name": "订 单",
+      "font_class": "dingdan1",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "7565024",
+      "name": "眼睛",
+      "font_class": "yanjing",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "13085681",
+      "name": "眼睛",
+      "font_class": "yanjing1",
+      "unicode": "e72c",
+      "unicode_decimal": 59180
+    },
+    {
+      "icon_id": "1203037",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "3580737",
+      "name": "订单",
+      "font_class": "icon-",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4950658",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "7036074",
+      "name": "首页-选中",
+      "font_class": "shouye1-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12259944",
+      "name": "账号",
+      "font_class": "zhanghao",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "13896109",
+      "name": "统计",
+      "font_class": "tongji",
+      "unicode": "e99c",
+      "unicode_decimal": 59804
+    },
+    {
+      "icon_id": "14474461",
+      "name": "店铺",
+      "font_class": "dianpu",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    }
+  ]
+}
