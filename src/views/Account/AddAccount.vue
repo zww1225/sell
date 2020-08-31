@@ -56,9 +56,9 @@ export default {
       );
     },
     // 重置
-    // resetForm(form) {
-    //   this.$refs[form].resetFields();
-    // },
+    resetForm(form) {
+      this.form = {};
+    },
   },
 };
 </script>

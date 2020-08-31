@@ -93,6 +93,7 @@ export default {
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
+  background-color: #fff;
 
   .right {
     display: flex;

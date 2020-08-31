@@ -152,10 +152,12 @@ export default {
         });
         shopNew.date = JSON.stringify(shopNew.date);
         shopNew.supports = JSON.stringify(shopNew.supports);
+
+        shopNew.pics = JSON.stringify(
+          shopNew.pics.map((v) => v.url.substr(this.baseUrl.length))
+        );
+
         // console.log(shopNew);
-
-        shopNew.pics = JSON.stringify(shopNew.pics);
-
         editShopMsg(shopNew).then((res) => {
           if (res.data.code == 0) {
             this.fetData();
@@ -172,7 +174,8 @@ export default {
     },
     // 上传店铺图片
     handleimgsSuccess(res) {
-      this.form.pics.push({ url: this.baseUrl + res.imgUrl });
+      this.form.pics.push({ name: res.imgUrl, url: this.baseUrl + res.imgUrl });
+      // console.log(this.form.pics);
     },
     // 上传店铺头像
     handleAvatarSuccess(res) {

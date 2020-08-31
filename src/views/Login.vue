@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <h1 class="title">味到家外卖管理系统</h1>
+    <!-- <h1 class="title">味到家外卖管理系统</h1> -->
     <div class="formBox">
       <el-form
         :model="ruleForm"
@@ -9,7 +9,7 @@
         label-width="80px"
         class="demo-ruleForm"
       >
-        <h1>系统登录</h1>
+        <h1 style="margin-left:60px">味到家外卖管理系统</h1>
         <!-- 账号 -->
         <el-form-item label="账号" prop="account">
           <el-input
@@ -22,13 +22,7 @@
         <!-- 密码 -->
 
         <el-form-item label="密码" prop="password">
-          <el-input
-            prefix-icon="iconfont icon-mima"
-            type="password"
-            v-model="ruleForm.password"
-            autocomplete="off"
-            suffix-icon="iconfont icon-yanjing"
-          ></el-input>
+          <el-input prefix-icon="iconfont icon-mima" v-model="ruleForm.password" show-password></el-input>
           <p class="err" style="color:red">{{errMsg}}</p>
         </el-form-item>
         <el-button class="loginBtn" @click="submitForm('ruleForm')">登录</el-button>
@@ -77,7 +71,9 @@ export default {
 .login {
   width: 100%;
   height: 100%;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: url("../assets/imgs/login.jpg") no-repeat;
   background-size: 100% 100%;
   .title {
@@ -86,12 +82,12 @@ export default {
   .formBox {
     width: 400px;
     height: 400px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    margin: auto;
+    // top: 0;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    // position: fixed;
+    // margin: auto;
     text-align: center;
     .err {
       font-size: 12px;
