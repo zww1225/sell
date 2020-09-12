@@ -8,7 +8,7 @@ export var login = (account, password) => axios.post('/users/checkLogin', { acco
 
 // 验证token
 export var checktoken = (token) => axios.get('/users/checktoken', { params: { token } })
-// ------------------------------账号-----------------------------------------------//
+// --------------------------------------账号-----------------------------------------------//
 
 // 添加账号
 export var addUser = (account, password, userGroup) => axios.post('/users/add', { account, password, userGroup })
